@@ -4,19 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- LAYER 1 : balise meta d'apparence normale -->
-  <!-- Fragment 1 caché : data-sig contient hex de "FLAG{" -->
+
   <meta name="generator" content="HS-CMS-v2.1" data-sig="46 4c 41 47 7b">
 
-  <!-- Fragment 3 caché : attribut CSS inutilisé dans une balise meta -->
-  <!-- Le joueur doit savoir que data-* attributes existent sur meta -->
+ 
   <meta name="theme" content="dark" data-palette="6e 33 76 33 72 5f" data-ver="3">
 
   <title>Helios Archive — Project Documentation</title>
 
   <style>
-    /* LAYER 2 : propriété CSS custom inutilisée avec valeur hex */
-    /* Fragment 2 caché dans une custom property dont le nom semble technique */
+    
     :root {
       --hs-build-ref: "7a 30 39 5f";
       --hs-primary: #1a1a2a;
@@ -196,11 +193,7 @@
       Facility coordinates — <span class="redacted">REDACTED</span>
     </div>
 
-    <!--
-      LAYER 3 : commentaire HTML encodé en hex
-      Fragment 4 caché ici — le joueur doit lire le source
-      data-checksum ci-dessous contient la 4ème partie
-    -->
+
     <div class="log-entry" data-checksum="77 33 6e 74 5f 64 61 72 6b 7d" data-pkg="PKG-003">
       <span class="ts">PKG-003</span>
       Operator profile — <span class="redacted">REDACTED</span>
@@ -209,7 +202,7 @@
   </div>
 
   <!-- 
-    ASSEMBLY NOTE (visible only in source):
+  
     fragments are ordered: meta[generator].data-sig + style[:root][--hs-build-ref] + meta[theme].data-palette + div[data-checksum]
     decode each hex sequence and concatenate in order
   -->
