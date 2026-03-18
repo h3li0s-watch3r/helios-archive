@@ -1,51 +1,48 @@
-# URYVBF NEPUVIR — CEBWRPG QBPHZRAGNGVBA
+# Helios Archive
 
-**FGNGHF:** FVTANY YBFG // BCRENGBE BSSYVAR // ABQR: M-09
-
----
-
-## YNFG XABJA NPGVIVGL
-
-Guvf ercbfvgbel pbagnvaf gur ynfg xabja erpbeqf bs Cebwrpg M-09.
-
-Nyy genafzvffvbaf unir orra rapelcgrq.
-
-Gur bcrengbe jnf genpxrq npebff zhygvcyr argjbexf.
+**Status:** Inactive  
+**Last update:** 2021-11-03  
+**Node:** Z-09
 
 ---
 
-## GENAFZVFFVBA YBT
+## About
 
-```
-ABQR    : M-09
-FVTANY  : YBFG
-QNGR    : 2021-11-03 02:17:44
-FGNGHF  : BSSYVAR
-```
+This repository contains the last known records of Project Z-09.
+
+All transmissions have been archived for internal reference.
+
+The project has been officially closed since November 2021.
 
 ---
 
-## NPPRFF YBT
+## Transmission Log
 
-| QNGR | RIRAG |
+| Date | Event |
 |------|-------|
-| 2021-11-03 | Bcrengbe jrag qnex |
-| 2021-11-02 | Ynfg cvat erprvirq |
-| 2021-10-14 | Nepuvir flap pbzcyrgr |
-| 2019-04-14 | Cebwrpg M-09 vavgvngrq |
+| 2021-11-03 | Node offline |
+| 2021-11-02 | Last ping received |
+| 2021-10-14 | Archive sync complete |
+| 2019-04-14 | Project Z-09 initiated |
 
 ---
 
-## ABGR
+## Files
 
-Gur fvtany arire fgbccrq.
-
-M-09 vf erny.
-
-Gur bcrengbe zbirq cyngsbezf. Gur fvtany pbagvahrf haqre n qvssrerag serdhrapl.
-
-Frnepu: **0c3e4g0e_7**
+- `logs.txt` — system access log
+- `index.html` — internal documentation page
+- `signal.bin` — raw signal capture
 
 ---
 
-*Uryvbf Erfrnepu Qvivfvba // Nyy Npprff Ybttrq*
+## System Integrity Check
+
+```
+build: HS-CMS-v2.1
+hash:  9f3a1b
+note:  Frnepu: 0c3e4g0e_7
+```
+
+---
+
+*Helios Research Division — All access is logged.*
